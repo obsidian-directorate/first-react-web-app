@@ -1,5 +1,6 @@
 import './App.css';
-import WelcomeMessage from './WelcomeMessage';
+import Counter from './resources/Counter';
+import WelcomeMessage from './resources/WelcomeMessage';
 
 function App() {
   const username = "Hieu10";
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <WelcomeMessage name={username} />
+        <Counter />
       </header>
     </div>
   );
